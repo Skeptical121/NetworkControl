@@ -1,0 +1,18 @@
+
+
+
+
+Ideas for efficiency...
+
+
+
+
+Vector3.Distance should use sqrMagnitude when possible
+Pathfinding, after it is done, should be verified that it does not loop onto itself, and that all the tiles picked are still valid
+This allows pathfinding to take as long as it wants... like even like 30 seconds wouldn't break anything whatsoever (and often produce a valid path too)
+
+
+Fix Conveyor Belts so they allow for any OBJ_LENGTH, as well as any speed
+
+
+Nothing should be tick dependant
